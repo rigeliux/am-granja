@@ -1,0 +1,113 @@
+html, body, .btn, input, textarea {font-family: 'opensans', sans-serif;}
+
+a:focus { text-decoration:none; outline:none; outline-offset:0; color:inherit;}
+a:hover { color:inherit;}
+.container, .row, [class*="span"]{ position:relative;}
+.container-fluid { padding:0;}
+.control-group {margin-bottom:5px;}
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 28px;      
+  box-sizing: border-box;
+}
+
+.carousel { margin-bottom:0px;}
+.carousel-control { top:49%;}
+.carousel-caption {position:absolute;}
+
+.btn h1,.btn h2,.btn h3,.btn h4,.btn h5,.btn h6{margin:2px 0;}
+
+.btn-gris {	
+	color: #F7F7F7;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	background-color: #848484;
+	*background-color: #848484;
+	background-image: -moz-linear-gradient(top, #666666, #848484);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#666666), to(#848484));
+	background-image: -webkit-linear-gradient(top, #666666, #848484);
+	background-image: -o-linear-gradient(top, #666666, #848484);
+	background-image: linear-gradient(to bottom, #666666, #848484);
+	background-repeat: repeat-x;
+	border-color: #848484;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#666666', endColorstr='#848484', GradientType=0);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+.btn-gris:hover,.btn-gris:focus,.btn-gris:active,.btn-gris.active,.btn-gris.disabled,.btn-gris[disabled] {	
+	color: #FFFFFF;
+	background-color: #848484;
+	*background-color: #003bb3;
+	background-position:0 0;
+}
+
+.btn-rosa {
+	color: #FFFFFF;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	background-color: #FE81C0;
+	*background-color: #FE81C0;
+	background-image: -moz-linear-gradient(top, #FE81C0, #FE81C0);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#FE81C0), to(#FE81C0));
+	background-image: -webkit-linear-gradient(top, #FE81C0, #FE81C0);
+	background-image: -o-linear-gradient(top, #FE81C0, #FE81C0);
+	background-image: linear-gradient(to bottom, #FE81C0, #FE81C0);
+	background-repeat: repeat-x;
+	border-color: #FE81C0;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FE81C0', endColorstr='#FE81C0', GradientType=0);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+.btn-rosa:hover,
+.btn-rosa:focus,
+.btn-rosa:active,
+.btn-rosa.active,
+.btn-rosa.disabled,
+.btn-rosa[disabled] {
+	color: #FFFFFF;
+	background-color: #FE81C0;
+	*background-color: #003bb3;
+	background-position:0 0;
+}
+
+.btn-azul{
+	box-shadow: none;
+}
+.btn-azul {
+	color: #FFFFFF;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	background-color: #000A3E;
+	*background-color: #000A3E;
+	background-image: -moz-linear-gradient(top, #000A3E, #000A3E);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#000A3E), to(#000A3E));
+	background-image: -webkit-linear-gradient(top, #000A3E, #000A3E);
+	background-image: -o-linear-gradient(top, #000A3E, #000A3E);
+	background-image: linear-gradient(to bottom, #000A3E, #000A3E);
+	background-repeat: repeat-x;
+	border-color: #000A3E;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000A3E', endColorstr='#000A3E', GradientType=0);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+.btn-azul:hover,
+.btn-azul:focus,
+.btn-azul:active,
+.btn-azul.active,
+.btn-azul.disabled,
+.btn-azul[disabled] {
+	color: #FFFFFF;
+	background-color: #000A3E;
+	*background-color: #003bb3;
+	background-position:0 0;
+}
+
+hr { margin:15px 0;}
+.inline { display:inline-block;}
+ul.no-style-type, ol.no-style-type { list-style-type:none;}
+
+.cart th, .cart td {vertical-align:middle;}
+.table td.valign-top, .table th.valign-top { vertical-align:top;}
+.table th.text-right, .table td.text-right{text-align:right;}
+.table th.text-center, .table td.text-center{ text-align:center;}
+.cart input { margin-bottom:0px;} 
+table.borderless, table.borderless td, td.borderless, th.borderless {border:none;}
+table.borderless td, table.borderless th {padding-left:0px; padding-right:0px; padding-bottom:0px;}

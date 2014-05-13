@@ -1,0 +1,7 @@
+.icono {display:block;}
+.menu {float: right; margin-top: 7px; opacity: 0.7;}
+.subnav { width:9px;height:5px;}
+.subnav-up { background:url(../images/admin/toggle-subnav-up.png);}
+.subnav-down { background:url(../images/admin/toggle-subnav-down.png);}
+.subnav-up-white, .navi .main-nav > li.open a span.subnav-down  { background:url(../images/admin/toggle-subnav-up-white.png);}
+.subnav-down-white, .navi .main-nav > li a:hover .subnav-down { background:url(../images/admin/toggle-subnav-down-white.png);}

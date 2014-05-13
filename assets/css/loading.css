@@ -1,0 +1,18 @@
+.loading { background:url(../images/290.gif) no-repeat #f5f5f5;  background-position:center center; position:absolute; top:0; left:0;filter:alpha(opacity=75); -moz-opacity:0.75; -khtml-opacity: 0.75; opacity: 0.75; z-index:1001; margin:0px !important; /*border-radius:8px 8px 8px 8px;*/}
+.load-async-cont {
+	font-size: 9px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: black;
+	border: 1px solid black;
+	display: block;
+	padding: 3px 0 3px 38px;
+	width: 0;
+	height: 32px;
+	overflow: hidden;
+	background-color: white;
+	background-repeat: no-repeat;
+	background-position: 3px 3px;
+	background-image:url('../images/loader.big.white.gif');
+}
